@@ -1,0 +1,144 @@
+Day 2 - Rock, Paper, Scissors
+
+GAME PLAY:
+----------
+
+Rock vs Scissors			[Rock wins]
+Rock vs Paper				[Paper wins]
+Rock vs Rock				[Draw]
+
+Scissors vs Paper			[Scissors wins]
+Scissors vs Rock			[Rock wins]
+Scissors vs Scissors		[Draw]
+
+
+Paper vs Rock				[Paper wins]
+Paper vs Scissors			[Scissors wins]
+Paper vs Paper				[Draw]
+
+
+INPUT:
+------
+
+	->	Opponent 1 input:
+		A => Rock
+		B => Paper
+		C => Scissors
+
+	->	Opponent 2 input:
+		X => Rock
+		Y => Paper
+		Z => Scissors
+
+WINNER:
+-------
+	-	Keep score of the winner each round.
+		=>	Rock		- 1 point.
+		=>	Paper		- 2 points.
+		=>	Scissors	- 3 points.
+
+		=>	Lost		- 0 points.
+		=>	Draw		- 3 points.
+		=>	Win			- 6 points.
+
+	-	The player with the highest score at the end is the winner.
+
+SCENARIO 1 [Rock vs Scissors] :
+-----------
+P1.choice = Rock		[1]
+P1.status = Win			[6]
+P1.score  = 7
+
+P2.choice = Scissors	[3]
+P2.status = Lost		[0]
+P2.score  = 3
+
+SCENARIO 2 [Rock vs Paper] :
+-----------
+P1.choice = Rock		[1]
+P1.status = Lost		[0]
+P1.score  = 1
+
+P2.choice = Paper		[2]
+P2.status = Win			[6]
+P2.score  = 8
+
+SCENARIO 3 [Rock vs Rock] :
+-----------
+P1.choice = Rock		[1]
+P1.status = Draw		[3]
+P1.score  = 4
+
+P2.choice = Rock		[1]
+P2.status = Draw		[3]
+P2.score  = 4
+
+
+SCENARIO 4 [Scissors vs Paper] :
+-----------
+P1.choice = Scissors	[3]
+P1.status = Win			[6]
+P1.score  = 9
+
+P2.choice = Paper		[2]
+P2.status = Lost		[0]
+P2.score  = 2
+
+SCENARIO 5 [Scissors vs Rock] :
+-----------
+P1.choice = Scissors	[3]
+P1.status = Lost		[0]
+P1.score  = 3
+
+P2.choice = Rock		[1]
+P2.status = Win			[6]
+P2.score  = 7
+
+SCENARIO 6 [Scissors vs Scissors] :
+-----------
+P1.choice = Scissors	[3]
+P1.status = Draw		[3]
+P1.score  = 6
+
+P2.choice = Scissors	[3]
+P2.status = Draw		[3]
+P2.score  = 6
+
+
+SCENARIO 7 [Paper vs Rock] :
+-----------
+P1.choice = Paper		[2]
+P1.status = Win			[6]
+P1.score  = 8
+
+P2.choice = Rock		[1]
+P2.status = Lost		[0]
+P2.score  = 1
+
+SCENARIO 8 [Paper vs Scissors] :
+-----------
+P1.choice = Paper		[2]
+P1.status = Lost		[0]
+P1.score  = 2
+
+P2.choice = Scissors	[3]
+P2.status = Win			[6]
+P2.score  = 9
+
+SCENARIO 9 [Paper vs Paper] :
+-----------
+P1.choice = Paper		[2]
+P1.status = Draw		[3]
+P1.score  = 5
+
+P2.choice = Paper		[2]
+P2.status = Draw		[3]
+P2.score  = 5
+
+
+PART 2
+------
+
+X => Lose
+Y => Draw
+Z => Win

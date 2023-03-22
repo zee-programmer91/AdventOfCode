@@ -1,0 +1,44 @@
+Day 1: Calorie Counting
+
+start fruit (reindeer favourite snack)
+
+expedition (minimum of 50 star fruits by 2th December)
+
+Calories each Elf is carrying (Input)
+
+Each Elf's calories are separated by a blank line (empty string)
+
+ELF 1
+-----
+1000
+2000
+3000
+
+ELF 2
+-----
+4000
+
+ELF 3
+-----
+5000
+6000
+
+ELF 4
+-----
+7000
+8000
+9000
+
+ELF 5
+-----
+10000
+
+
+TODO:
+
+- Get all inputs from a file [X]
+- Separate the inputs to different elves (dictionary/map) [X]
+- Add the inputs together for each elf []
+- Check which elf has the most calories []
+- Display the elf that's carrying the most calories []
+
