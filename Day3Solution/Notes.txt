@@ -1,0 +1,56 @@
+											Day 3: Rucksack Reorganization
+											==============================
+
+Loading all of the rucksacks with supplies for the jungle journey.
+
+Rucksack:
+	-	2 large compartments.
+	-	All items of a given type are meant to go into exactly "one of the two"" compartments.
+	-	Each rucksack is given as characters all on a single line.
+	-	A rucksack always has the same number of items in each of its two compartments (half-half)
+
+Find error(s) on the given items.
+
+Item:
+	-	Every item type is identified by a lowercase or uppercase letter.
+	-	every item type can be converted to a priority:
+		=>	Lowercase item types a through z have priorities 1 through 26.
+		=>	Uppercase item types A through Z have priorities 27 through 52.
+
+=================
+Problem Statement
+=================
+
+Find the item type that appears in both compartments of each rucksack.
+What is the sum of the priorities of those item types?
+
+
+Implementation
+==============
+
+- Create Rucksack object
+  => Compartment1 (vector)
+  => Compartment2 (vector)
+
+- Create Item object
+  => value (char)
+
+									TODO:
+
+- Read items from a file (each line represents items in the rucksack)													[X]
+
+- Save the items in a vector and save that vector in a map (to map each rucksack)							[X]
+
+- Check which items repeat in the compartments of each rucksack (save them in a vector)				[X]
+
+- Change the items you found repeating into prioriries (integers) and save them in a vector		[X]
+
+- Add those numbers together to get the sum of those priorities																[X]
+
+
+PART 2
+======
+
+For safety
+	-	Elves are divided into groups of 3.
+	-	Every elf carries a "badge" that identifies which group they belong to.
